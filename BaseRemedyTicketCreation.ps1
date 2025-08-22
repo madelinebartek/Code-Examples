@@ -1,4 +1,8 @@
-
+<# 
+Once the hardcoded values are correctly replaced, the script will be able to connect to the Remdy API and create an incident ticket based off the hardcoded values. 
+This script specifically is meant to create multiple tickets at a time, up until 50, based of values inputted from a csv file. 
+A little bit of code modification is necessary, based on the data in the csv, to appropriately pull in the values and add them to the description/notes of the ticket.
+#>
 $TICKETLIMIT = 50
 
 $endpoint = "Paste URL endpoint here"
@@ -147,4 +151,5 @@ try{
    Write-Host "Export completed, csv saved to $exportPath "
 }catch{
    Write-Host "Export was not successful"
+
 }
