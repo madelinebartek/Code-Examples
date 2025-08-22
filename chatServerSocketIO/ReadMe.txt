@@ -13,3 +13,5 @@ TESTING INSTRUCTIONS:
 http://localhost:3000/chatClient.html 
 
 Not exact code taken, but lot of inspiration from: https://socket.io/get-started/chat
+This code is meant to only work on the local host and won't work with other computers.
+This is an assignment from a school project. I can attribute much of the inspiration to this code to my professor, Prof. LD Nel at Carleton. 
